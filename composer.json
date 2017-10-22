@@ -15,6 +15,8 @@
         "psr/simple-cache": "*"
     },
 
+    "minimum-stability": "dev",
+
     "autoload": {
         "psr-4": {
             "Previewtechs\\SimpleCache\\": "src"
