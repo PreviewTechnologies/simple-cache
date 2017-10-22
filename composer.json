@@ -1,0 +1,27 @@
+{
+    "name": "previewtechs/simple-cache",
+    "description": "Simple cache library for PHP built on top of PSR-16.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shaharia Azam",
+            "email": "shaharia.azam@gmail.com"
+        }
+    ],
+
+    "require": {
+        "psr/cache": "~1.0",
+        "psr/simple-cache": "*"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Previewtechs\\SimpleCache\\": "src"
+        }
+    },
+
+    "provide": {
+        "psr/simple-cache-implementation": "1.0"
+    }
+}
