@@ -1,10 +1,10 @@
+## Simple Cache Client Adapter ##
 PHP Cache library built by PSR-16 simple cache interface
 
 You can find implementations of the specification by looking for packages providing the psr/simple-cache-implementation virtual package.
 
 #### Installation
-- Clone the repository from Github (https://github.com/PreviewTechnologies/simple-cache)
-- Run this command: `composer install`
+- Run this command: `composer require previewtechs/simple-cache:dev-master`
 
 #### Usages
 - Create a file named `test.php` in your root directory and add these following codes: 
